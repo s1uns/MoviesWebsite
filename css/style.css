@@ -93,6 +93,10 @@ header{
     font-size: 1.6rem;
 }
 
+.nav-link-title{
+    font-size: 0.7rem;
+}
+
 /* Logo */
 .logo{
     font-size: 1.4rem;
