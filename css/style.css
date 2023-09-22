@@ -310,3 +310,40 @@ header{
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+.next-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.next-btn{
+    background: var(--main-color);
+    padding: 12px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.next-btn:hover{
+    background: var(--hover-color);
+    transition: 0.3s all linear;
+
+}
+
+/* Copyright */
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright-text{
+    color: white;
+    opacity: 0.7;
+}
+.copyright:hover .copyright-text{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+
