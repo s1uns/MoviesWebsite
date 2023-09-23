@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Глянути значення!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Глянути значення!-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Link to CSS -->
     <link rel="stylesheet" href="css/style.css">
-    
+
 
 
     <!-- Fav Icon -->
@@ -18,8 +20,9 @@
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 
 </head>
+
 <body>
-   <!-- Header -->
+    <!-- Header -->
     <header>
         <!-- Navigation -->
         <div class="nav container">
@@ -42,39 +45,71 @@
                     <span class="nav-link-title">Home</span>
                 </a>
                 <a href="#home" class="nav-link">
-                    <i class='bx bxs-hot' ></i>
+                    <i class='bx bxs-hot'></i>
                     <span class="nav-link-title">Trending</span>
                 </a>
                 <a href="#home" class="nav-link">
-                    <i class='bx bx-compass' ></i>
+                    <i class='bx bx-compass'></i>
                     <span class="nav-link-title">Explore</span>
                 </a>
                 <a href="#home" class="nav-link">
-                    <i class='bx bx-tv' ></i>
+                    <i class='bx bx-tv'></i>
                     <span class="nav-link-title">Movies</span>
                 </a>
                 <a href="#home" class="nav-link">
-                    <i class='bx bx-heart' ></i>
+                    <i class='bx bx-heart'></i>
                     <span class="nav-link-title">Favourite</span>
                 </a>
             </div>
         </div>
     </header>
 
-   <!-- Play Movie Container -->
-   <div class="play-container container">
+    <!-- Play Movie Container -->
+    <div class="play-container container">
         <!-- Play Image -->
         <img src="play-page/play-background.jpg" alt="" class="play-img">
         <!-- Play Text -->
         <div class="play-text">
             <h2>Jumanji: Welcome to the Jungle</h2>
+            <!-- Ratings -->
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <!-- Tags -->
+            <div class="tags">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4k</span>
+            </div>
+            <!-- Trailer Button -->
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch the trailer</span>
+            </a>
         </div>
-   </div>
+        <!-- Play Btn -->
+        <i class='bx bx-right-arrow play-movie'></i>
+        <!-- Video Container -->
+        <div class="video-container">
+            <!-- Video Box -->
+            <div class="video-box">
+                <video id = "myVideo" src="play-page/Jumanji.mp4" controls></video>
+                <!-- Close Video Icon -->
+                <i class='bx bx-x close-video' ></i>
+            </div>
+        </div>
+    </div>
     <!-- Copyright -->
     <div class="copyright">
-        <a href ="https://github.com/s1uns" class = "copyright-text" target="_blank">&#169; Illia "s1uns" Teliuk All Rights Reserved</a>
+        <a href="https://github.com/s1uns" class="copyright-text" target="_blank">&#169; Illia "s1uns" Teliuk All Rights
+            Reserved</a>
     </div>
     <!-- Link to JS -->
-    <script src = "js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
